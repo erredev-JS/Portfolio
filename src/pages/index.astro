@@ -1,5 +1,9 @@
 ---
-
+import '../styles/global.css'
+import Header from '../Components/Header.astro'
+import Hero from '../Components/Hero.astro'
+import Projects from '../Components/Projects.astro'
+import Footer from '../Components/Footer.astro'
 ---
 
 <html lang="en">
@@ -8,9 +12,15 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 		<title>Astro</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-gradient-to-bl from-purple-600 from- via-fuchsia-500 via- min-h-screen bg-fixed flex flex-col" >
+		<Header></Header>
+		<Hero></Hero>
+		<Projects></Projects>
+		<Footer></Footer>
 	</body>
 </html>

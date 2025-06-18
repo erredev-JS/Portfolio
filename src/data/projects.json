@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Mejora de Tesla Mobile",
+    "description": "Pagina basada en  tesla  vista mobile, uso de React Three Fiber para usar un modelo 3D de una cybertruck como fondo.",
+    "imageUrl": "https://res.cloudinary.com/dcoylqcq0/image/upload/v1750286882/tesla3dProject_y0xsjz.png",
+    "demoUrl": "https://erredev-js.github.io/react-three-fiber-firstWorkspace/",
+    "repoUrl": "https://github.com/usuario/proyecto-tareas"
+  }
+]

@@ -1,0 +1,16 @@
+---
+import projects from '../data/projects.json'
+import Card from './Card.astro'
+---
+
+
+<div class="w-[80%] h-[100vh]   m-auto">
+    <h1 class="text-center text-5xl">Mis proyectos</h1>
+    <div class="m-12">
+
+        {projects.map((project) => (
+            <Card title={project.title} description={project.description} demoUrl={project.demoUrl} imageUrl={project.imageUrl} repoUrl={project.demoUrl}></Card>
+        ))}
+
+    </div>
+</div>
