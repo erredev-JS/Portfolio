@@ -1,9 +1,16 @@
 [
   {
     "title": "Mejora de Tesla Mobile",
-    "description": "Pagina basada en  tesla  vista mobile, uso de React Three Fiber para usar un modelo 3D de una cybertruck como fondo.",
+    "description": "Pagina basada en  tesla  vista mobile, uso de React Three Fiber para usar un modelo 3D de una cybertruck como hero.",
     "imageUrl": "https://res.cloudinary.com/dcoylqcq0/image/upload/v1750286882/tesla3dProject_y0xsjz.png",
     "demoUrl": "https://erredev-js.github.io/react-three-fiber-firstWorkspace/",
+    "repoUrl": "https://github.com/usuario/proyecto-tareas"
+  },
+  {
+    "title": "Weather APP",
+    "description": "Aplicación del clima con autocompletado y fondo dinamico basado en la hora del lugar buscado.",
+    "imageUrl": "https://res.cloudinary.com/dcoylqcq0/image/upload/v1750287926/weatherApp_gh8xb0.png",
+    "demoUrl": "https://erredev-js.github.io/weatherApp-JS/",
     "repoUrl": "https://github.com/usuario/proyecto-tareas"
   }
 ]

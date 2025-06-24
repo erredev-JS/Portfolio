@@ -4,9 +4,9 @@ import Card from './Card.astro'
 ---
 
 
-<div class="w-[80%] h-[100vh]   m-auto">
-    <h1 class="text-center text-5xl">Mis proyectos</h1>
-    <div class="m-12">
+<div class="w-[80%] scroll-mt-[15vh] flex justify-center flex-col m-auto" id="projects">
+    <h1 class="text-center text-5xl font-bold">Mis proyectos</h1>
+    <div class="my-12 flex flex-wrap gap-10">
 
         {projects.map((project) => (
             <Card title={project.title} description={project.description} demoUrl={project.demoUrl} imageUrl={project.imageUrl} repoUrl={project.demoUrl}></Card>
