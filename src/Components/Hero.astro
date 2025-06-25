@@ -1,3 +1,7 @@
+---
+const base =  '/Portfolio/';
+---
+
 <div class=" mt-30 w-[80%] m-auto mb-10 scroll-mt-[15vh]" id="home">
 
     <h1 class="pt-36 text-6xl text-left text-black">
@@ -8,7 +12,6 @@
         </span>
     </h1>
 
-
     <h2 class="mt-16 text-4xl text-left text-black">
         Estudiante apasionado de programación. <br> <br>
 
@@ -18,43 +21,43 @@
     </h2>
 
     <div class="mt-16">
-  <h3 class="text-3xl font-bold text-black mb-6">Habilidades Técnicas</h3>
-  <ul class="flex flex-wrap gap-4 text-lg text-black">
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm ">React</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm ">Astro</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">TypeScript</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">JavaScript</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Java</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">HTML</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">CSS</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">MongoDB</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">SQL</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Node.js</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Git</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Express</li>
-    <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Springboot</li>
-  </ul>
-</div>
-
+      <h3 class="text-3xl font-bold text-black mb-6">Habilidades Técnicas</h3>
+      <ul class="flex flex-wrap gap-4 text-lg text-black">
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm ">React</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm ">Astro</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">TypeScript</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">JavaScript</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Java</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">HTML</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">CSS</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">MongoDB</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">SQL</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Node.js</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Git</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Express</li>
+        <li class="bg-fuchsia-100/50 px-4 py-2 rounded-sm">Springboot</li>
+      </ul>
+    </div>
 
     <div class="flex gap-5.5 w-[80%] min-w-[420px] m-auto  justify-center mt-12">
         <a class="h-[95px] w-[150px] border-2 border-amber-50 flex items-center justify-center rounded-2xl backdrop-blur-sm bg-black/35 hover:scale-105 transition-transform duration-150 hover:border-red-300" href="https://www.github.com/erredev-JS">
-            <img src="./icons/github.svg" alt="GitHub Icon">
+            <img src={`${base}icons/github.svg`} alt="GitHub Icon" />
         </a>
 
-        <a class="h-[95px] w-[150px] border-2 border-amber-50 flex items-center justify-center rounded-2xl backdrop-blur-sm bg-black/35 hover:scale-105 transition-transform duration-150
-        hover:border-red-300" href="https://www.linkedin.com/in/rodrigo-alejandro-zapata-nicito-280ab4214/">
-            <img src="./icons/linkedin.svg" alt="LinkedIn Icon">
+        <a class="h-[95px] w-[150px] border-2 border-amber-50 flex items-center justify-center rounded-2xl backdrop-blur-sm bg-black/35 hover:scale-105 transition-transform duration-150 hover:border-red-300" href="https://www.linkedin.com/in/rodrigo-alejandro-zapata-nicito-280ab4214/">
+            <img src={`${base}icons/linkedin.svg`} alt="LinkedIn Icon" />
         </a>
 
         <a class="h-[95px] w-[150px] border-2 border-amber-50 flex items-center justify-center rounded-2xl backdrop-blur-sm bg-black/35 hover:scale-105 transition-transform duration-150 hover:border-red-300" href="https://www.instagram.com/erredevjs">
-            <img src="./icons/instagram.svg" alt="Instagram Icon">
+            <img src={`${base}icons/instagram.svg`} alt="Instagram Icon" />
         </a>
+
         <a class="h-[95px] w-[150px] border-2 border-amber-50 flex items-center justify-center rounded-2xl backdrop-blur-sm bg-black/35 hover:scale-105 transition-transform duration-150 hover:border-red-300" href="https://www.youtube.com/@erredev">
-            <img src="./icons/youtube.svg" alt="Youtube Icon">
+            <img src={`${base}icons/youtube.svg`} alt="Youtube Icon" />
         </a>
+
         <a class="h-[95px] w-[150px] border-2 border-amber-50 flex items-center justify-center rounded-2xl backdrop-blur-sm bg-black/35 hover:scale-105 transition-transform duration-150 hover:border-red-300" href="https://www.tiktok.com/@erredev">
-            <img src="./icons/tiktok.svg" alt="Tiktok Icon">
+            <img src={`${base}icons/tiktok.svg`} alt="Tiktok Icon" />
         </a>
     </div>
 

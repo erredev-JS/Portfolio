@@ -10,6 +10,8 @@ export interface Props {
 
 const {title, description, imageUrl, demoUrl, repoUrl} = Astro.props as Props
 
+
+const base = '/Portfolio/'
 ---
   
   <div class="w-[400px] min-w-[400px] h-[500px]  rounded-2xl m-auto rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl ronded-br-2xl overflow-hidden shadow-md hover:shadow-xl hover:scale-102 transition-transform duration-150 border-4 border-transparent hover:border-red-300 cursor-pointer" onclick={`window.open('${demoUrl}', '_blank');`}>
@@ -25,7 +27,7 @@ const {title, description, imageUrl, demoUrl, repoUrl} = Astro.props as Props
                     <div>
                         
                     </div>
-                    <img src="./icons/linkto.svg" alt="Icon to extern page" class="w-[50px]  ml-auto mt-auto mr-5" >
+                    <img src=`${base}./icons/linkto.svg` alt="Icon to extern page" class="w-[50px]  ml-auto mt-auto mr-5" >
                 </div>
             </div>
         </div>
