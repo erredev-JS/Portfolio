@@ -6,26 +6,25 @@ import Projects from '../Components/Projects.astro'
 import Footer from '../Components/Footer.astro'
 ---
 
-<html lang="en" >
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-		<title>Astro</title>
-	</head>
-	<body class="bg-gradient-to-bl from-purple-600 from- via-fuchsia-500 via- min-h-screen bg-fixed flex flex-col" >
-		<Header></Header>
-		<Hero></Hero>
-		<Projects></Projects>
-		<Footer></Footer>
-	</body>
-	<style>
-		html{
-			scroll-behavior: smooth;
-		}
-	</style>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Astro</title>
+  </head>
+  <body class="bg-gradient-to-bl from-purple-600 via-fuchsia-500 min-h-screen bg-fixed flex flex-col">
+    <Header />
+    <Hero />
+    <Projects />
+    <Footer />
+  </body>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </html>
