@@ -14,7 +14,7 @@ const {title, description, imageUrl, demoUrl, repoUrl} = Astro.props as Props
 const base = '/Portfolio/'
 ---
   
-  <div class="w-[400px] min-w-[400px] h-[500px]  rounded-2xl m-auto rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl ronded-br-2xl overflow-hidden shadow-md hover:shadow-xl hover:scale-102 transition-transform duration-150 border-4 border-transparent hover:border-red-300 cursor-pointer" onclick={`window.open('${demoUrl}', '_blank');`}>
+  <div class="w-[400px] min-w-[401px] h-[500px]  rounded-2xl m-auto rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl ronded-br-2xl overflow-hidden shadow-md hover:shadow-xl hover:scale-102 transition-transform duration-150 border-4 border-transparent hover:border-red-300 cursor-pointer" onclick={`window.open('${demoUrl}', '_blank');`}>
             <div class="w-[100%] h-[50%] border-none border-b-amber-50 border-4">
                 {imageUrl && (<img src={imageUrl} class="w-full h-[100%] object-contain border-b-amber-50 border-b-4">)}
                 
